@@ -6,10 +6,9 @@ const checkAuth = require('../middleware/check-auth');
 const checkUserRole = require('../middleware/check-role');
 
 router.post('/insert', contentController.insert);
-router.post('/view_by_id/:id', contentController.view_by_id);
-/*router.post('/update/:id', contentController.update);
-router.get('/list', contentController.list);
-router.post('/list', contentController.list);// with search
-router.delete('/:id', contentController.detele);*/
+router.post('/view_content/:id', contentController.view_content);
+router.patch('/:id', contentController.update);
+router.delete('/:id', contentController.delete);
+router.post("/search_n_list/:limit/:skip", contentController.search_n_list);
 
 module.exports = router;

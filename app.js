@@ -10,8 +10,15 @@ const userRoutes 	= require('./api/routes/user');
 const indexRoutes 	= require('./api/routes/index');
 const contentRoutes	= require('./api/routes/content');
 
-mongoose.connect("mongodb://localhost:27017/api-cms",{useMongoClient: true});
 mongoose.Promise = global.Promise;
+
+mongoose.connect("mongodb://localhost:27017/api-cms",{useMongoClient: true}).then(() => console.log('MongoDB Connected'))
+.catch(err => console.log(err));
+
+/*mongoose.connect('mongodb://localhost:27017/api-cms',{ useNewUrlParser: true })
+.then(() => console.log('MongoDB Connected'))
+.catch(err => console.log(err));
+*/
 
 app.use(morgan("dev"));
 app.use('/uploads', express.static('uploads'));
@@ -52,7 +59,7 @@ app.use((error, req, res, next) =>
 	{
 	    error: 
 	    {
-	      message: error.message
+	    	message: error.message
 	    }
 	});
 });

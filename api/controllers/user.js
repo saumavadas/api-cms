@@ -193,9 +193,9 @@ exports.user_edit = (req, res, next) =>
     .exec()
     .then(result => 
     {
-    		res.status(200).json(
+    	res.status(200).json(
 		{
-			message: "Product updated"
+			message: "User info updated"
 		});
     })
     .catch(err => 

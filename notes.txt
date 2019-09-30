@@ -61,5 +61,14 @@
 	"params" : [ ],
 	"__v" : 0
 }
-
-
+-------------------------------------------------------------------
+{
+"title": "test title",
+"alias": "test title",
+"category": "any category",
+"conteny_type": "main content",
+"content":[{"full_text":"some full text"}],
+"created_by":"user_name",
+}
+5d923ab29927240a3cd39a4f
+5d924613ec89ee0d301d9fd4
