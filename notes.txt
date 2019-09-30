@@ -1,0 +1,65 @@
+{
+	"_id" : ObjectId("5d90349d05da052dbb3d177d"),
+	"name" : "Saumava Das",
+	"user_name" : "sdas",
+	"email" : "sdas@gmail.com",
+	"password" : "$2b$10$hIOeQG1R5PRLW3LptEFcQ.VLVdfgRNmG4Z79l4U6k6dnIzVxQuvL.",
+	"register_date" : ISODate("2019-09-29T04:35:41.411Z"),
+	"contact_info" : [
+		{
+			"phone2" : "9330925325",
+			"phone1" : "9874240470"
+		}
+	],
+	"access" : [
+		{
+			"role" : "super admin"
+		}
+	],
+	"params" : [ ],
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5d9034c905da052dbb3d177e"),
+	"name" : "poly",
+	"user_name" : "pdas",
+	"email" : "pdas@gmail.com",
+	"password" : "$2b$10$pM.crxHyp6BSPtIvaNh7Uef8rFCUXpJ.BQbO8DbZFEJjwlHesyoma",
+	"register_date" : ISODate("2019-09-29T04:36:25.781Z"),
+	"contact_info" : [
+		{
+			"phone2" : "9832720238",
+			"phone1" : "8777081308"
+		}
+	],
+	"access" : [
+		{
+			"role" : "admin"
+		}
+	],
+	"params" : [ ],
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5d9034e705da052dbb3d177f"),
+	"name" : "tumpa",
+	"user_name" : "tjana",
+	"email" : "tjana@gmail.com",
+	"password" : "$2b$10$u08cNwDsvoDutaWa97Yagufeg1wHtzzhNnRhuZAh57EEcMdeT3qtG",
+	"register_date" : ISODate("2019-09-29T04:36:55.229Z"),
+	"contact_info" : [
+		{
+			"phone2" : "9832720238",
+			"phone1" : "9876543321"
+		}
+	],
+	"access" : [
+		{
+			"role" : "admin"
+		}
+	],
+	"params" : [ ],
+	"__v" : 0
+}
+
+
